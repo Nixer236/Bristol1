@@ -2,13 +2,19 @@
   <block type="controls_repeat" id="282" inline="true" x="-187" y="-443">
     <value name="TIMES">
       <block type="math_number" id="289">
-        <field name="NUM">133333</field>
+        <field name="NUM">60</field>
       </block>
     </value>
     <statement name="DO">
       <block type="movement_forward" id="299">
         <next>
-          <block type="movement_right" id="326"></block>
+          <block type="robot_delay" id="337" inline="true">
+            <value name="DELAY">
+              <block type="math_number" id="351">
+                <field name="NUM">1000</field>
+              </block>
+            </value>
+          </block>
         </next>
       </block>
     </statement>
