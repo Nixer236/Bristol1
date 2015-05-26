@@ -11,7 +11,7 @@
           <block type="movement_stop" id="84">
             <next>
               <block type="oled_drawtext" id="103">
-                <field name="TEXT">2+2=</field>
+                <field name="TEXT">FATTY FAT FAT</field>
               </block>
             </next>
           </block>
